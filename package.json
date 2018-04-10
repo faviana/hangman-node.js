@@ -1,0 +1,23 @@
+{
+  "name": "nodehangman",
+  "version": "1.0.0",
+  "description": "Hangman game using node",
+  "main": "hangman.js",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comptech81/nodeHangman.git"
+  },
+  "author": "James Hartley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comptech81/nodeHangman/issues"
+  },
+  "homepage": "https://github.com/comptech81/nodeHangman#readme"
+}

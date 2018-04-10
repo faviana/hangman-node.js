@@ -27,7 +27,9 @@ function playGame() {
     var schema = {
         properties: {
             input: {
+                //this allows the inputs to be only letters (upper Case and lower Case)
                 pattern: /^[a-zA-Z]+$/,
+                //If user inputs a character other than a letter message will populate
                 message: 'Can only input letters',
                 required: true
             },
@@ -71,8 +73,8 @@ function playGame() {
 
 startGame();
 
-// *********************************
+// **************************************************************
 //             Fix
 //   1. When letter is guessed correctly error message is thrown
 //      displayMovieTile is not defined
-// *********************************
+// **************************************************************
